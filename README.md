@@ -1,4 +1,4 @@
-# Python - Postgresql - Log Analyis
+# Python - Postgresql - Log Analysis
 
 ## Requirements
 
