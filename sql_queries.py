@@ -51,7 +51,7 @@ def pop_3posts_all():
         print (a[0], '{:>10}{}'.format(a[1], " views"))
 
 print ("Three most popular articles of all time")
-print (pop_3posts_all())
+pop_3posts_all()
 
 
 def pop_authors_all():
@@ -65,7 +65,7 @@ def pop_authors_all():
         print ('{:>25}{}{}{}'.format(a[0], "    ", a[1], " views"))
 
 print ("Most poppular authors of all time")
-print (pop_authors_all())
+pop_authors_all()
 
 
 def bad_days():
@@ -82,4 +82,4 @@ def bad_days():
             pass
 
 print ("Which days more than 1% of requests lead to errors?")
-print (bad_days())
+bad_days()
